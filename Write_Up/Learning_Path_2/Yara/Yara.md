@@ -14,10 +14,14 @@ Giống như ứng dụng thông thường, mã độc sử dụng chuỗi để
 - Địa chỉ máy chủ điều khiển (C2).
 - Thông điệp lừa đảo hoặc mã hóa.
 ## Answer the question
-1. *What is the name of the base-16 numbering system that Yara can detect?*
-Answer: **Hexadecimal**
+1. *What is the name of the base-16 numbering system that Yara can detect?* 
+```
+Answer: Hexadecimal
+```
 2. *Would the text "Enter your Name" be a string in an application? (Yay/Nay)*
-Answer: **Yay**
+```
+Answer: Yay
+```
 
 # Task 3: Deploy
 ## In-Browser (No  VPN required)
@@ -58,21 +62,36 @@ Bên cạnh **Yara tool** thì cũng có các công cụ hữu ích khác như *
 # Task 8: Using LOKI and its Yara rule set
 ![alt text](images/task8.png)
 1. *Scan file 1. Does Loki detect this file as suspicious/malicious or benign?*
-Answer: **Suspicious**
+```
+Answer: Suspicious
+```
 2. *What Yara rule did it match on?*
-Answer: **webshell_metaslsoft**
+```
+Answer: webshell_metaslsoft
+```
 3. *What does Loki classify this file as?*
-Answer: **Web Shell**
+```
+Answer: Web Shell
+```
 4. *Based on the output, what string within the Yara rule did it match on?*
-Answer: **Str1**
+```
+Answer: Str1
+```
 5. *What is the name and version of this hack tool?*
-Answer: **b374k 2.2**
+```
+Answer: b374k 2.2
+```
 6. *Inspect the actual Yara file that flagged file 1. Within this rule, how many strings are there to flag this file?*
-Answer: **1**
+```
+Answer: 1
+```
 7. *Scan file 2. Does Loki detect this file as suspicious/malicious or benign?*
-Answer: **Benign**
+```
+Answer: Benign
+```
 8. *Inspect file 2. What is the name and version of this web shell?*
-Answer: **b374k 3.2.3**
-Solution: **Mở file 1ndex.php bằng vi/nano để xem vì đây là một file lành tính**
-
+```
+Answer: b374k 3.2.3
+Solution: Mở file 1ndex.php bằng vi/nano để xem vì đây là một file lành tính
+```
 # Task 9: Creating Yara rules with yarGen

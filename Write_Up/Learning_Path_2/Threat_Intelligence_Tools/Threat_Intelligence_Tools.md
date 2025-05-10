@@ -33,13 +33,21 @@
 Sử dụng ảnh để trả lời các câu hỏi:
 ![alt text](images/UrlScan.png)
 1. *What was TryHackMe's Cisco Umbrella Rank based on the screenshot?*
-Answer: **345612**
-2. *How many domains did UrlScan.io identify on the screenshot?*
-Answer: **13**
-3. *What was the main domain registrar listed on the screenshot?*
-Answer: **NAMECHEAP INC**
-4. *What was the main IP address identified for TryHackMe on the screenshot?*
-Answer: **2606:4700:10::ac43:1b0a**
+```
+Answer: 345612
+```
+1. *How many domains did UrlScan.io identify on the screenshot?*
+```
+Answer: 13
+```
+1. *What was the main domain registrar listed on the screenshot?*
+```
+Answer: NAMECHEAP INC
+```
+1. *What was the main IP address identified for TryHackMe on the screenshot?*
+```
+Answer: 2606:4700:10::ac43:1b0a
+```
 
 # Task 4: Abuse.ch
 ## Understanding Abuse.ch
@@ -54,17 +62,25 @@ Answer: **2606:4700:10::ac43:1b0a**
 
 ## Answer the questions
 1. *The IOC 212.192.246.30:5555 is identified under which malware alias name on ThreatFox?*
-Answer: **Katana**
-Solution: **Tìm kiếm với từ khóa "ioc:212.192.246.30:5555"**
+```
+Answer: Katana
+Solution: Tìm kiếm với từ khóa "ioc:212.192.246.30:5555"
+```
 2. *Which malware is associated with the JA3 Fingerprint **51c64c77e60f3980eea90869b68c58a8** on SSL Blacklist?*
-Answer: **Dridex**
-Solution: **Tìm kiếm với từ khóa "ja3:51c64c77e60f3980eea90869b68c58a8"**
+```
+Answer: Dridex
+Solution: Tìm kiếm với từ khóa "ja3:51c64c77e60f3980eea90869b68c58a8"
+```
 3. *From the statistics page on URLHaus, what malware-hosting network has the ASN number AS14061?*
-Answer: **DIGITALOCEAN-ASN**
-Solution: **Tìm kiếm với từ khóa "asn:14061"**
+```
+Answer: DIGITALOCEAN-ASN
+Solution: Tìm kiếm với từ khóa "asn:14061"
+```
 4. *Which country is the botnet IP address 178.134.47.166 associated with according to FeodoTracker?*
-Answer: **Georgia**
-Solution: **Tìm kiếm với từ khóa "ip:178.134.47.166"**
+```
+Answer: Georgia
+Solution: Tìm kiếm với từ khóa "ip:178.134.47.166"
+```
 
 # Task 5: PhishTool
 ## PhishTool Overview
@@ -85,25 +101,37 @@ Solution: **Tìm kiếm với từ khóa "ip:178.134.47.166"**
 
 1. *What social media platform is the attacker trying to pose as in the email?*
 ![alt text](images/Phishtool.png)
-Answer: **LinkedIn**
-Solution: **Sau khi mở file lên `Email1.eml` sẽ thấy ngay đang giới thiệu về LinkedIn**
-1. *What is the senders email address?*
-Answer: **darkabutla@sc500.whpservers.com**
-Solution: **Cũng sẽ thấy được tên người gửi trong trang đầu tiên sau khi mở file lên `Email1.eml`**
-2. *What is the recipient's email address?*
-Answer: **cabbagecare@hotsmail.com**
-Solution: **Cũng sẽ thấy được tên người nhận trong trang đầu tiên sau khi mở file lên `Email1.eml`**
-3. *What is the Originating IP address? Defang the IP address.*
-Answer: **104.237.130.10**
-Solution: **Sau khi mở file lên `Email1.eml` sẽ thấy ngay IP gốc**
+```
+Answer: LinkedIn
+Solution: Sau khi mở file lên `Email1.eml` sẽ thấy ngay đang giới thiệu về LinkedIn
+```
+2. *What is the senders email address?*
+```
+Answer: darkabutla@sc500.whpservers.com
+Solution: Cũng sẽ thấy được tên người gửi trong trang đầu tiên sau khi mở file lên `Email1.eml`
+```
+3. *What is the recipient's email address?*
+```
+Answer: cabbagecare@hotsmail.com
+Solution: Cũng sẽ thấy được tên người nhận trong trang đầu tiên sau khi mở file lên `Email1.eml`
+```
 4. *What is the Originating IP address? Defang the IP address.*
-Answer: **204[.]93[.]183[.]11**
-Solution: **Ấn vào more > view source ở góc phải trên cùng của màn hình để xem chi tiết về file. Lúc này màn hình sẽ hiện ra**
+```
+Answer: 104.237.130.10
+Solution: Sau khi mở file lên `Email1.eml` sẽ thấy ngay IP gốc
+```
+5. *What is the Originating IP address? Defang the IP address.*
+```
+Answer: 204.93.183.11
+Solution: Ấn vào more > view source ở góc phải trên cùng của màn hình để xem chi tiết về file. Lúc này màn hình sẽ hiện ra
+```
 ![alt text](images/Phishtool_2.png)
 - Như khung đỏ được đánh dấu trong hình trên, ta có thể thấy được IP gốc của email. Nhưng để có đáp án đúng so với mong đợi, thì cần phải chuyển địa chỉ IP thành dạng defanged IP. Ta có thể sử dụng các mã nguồn mở, khuyến khích dùng `CyberChef` để làm việc này.
 5. **How many hops did the email go through to get to the recipient?**
-Answer: **4**
-Solution: **Sử dụng hình ảnh của câu trên, ta cũng có thể thấy được số lượng bước mà email đã đi qua bao gồm: Require-Recipient-Valid-Since, Received-SPF, Authentication-Results, Received**
+``` 
+Answer: 4
+Solution: Sử dụng hình ảnh của câu trên, ta cũng có thể thấy được số lượng bước mà email đã đi qua bao gồm: Require-Recipient-Valid-Since, Received-SPF, Authentication-Results, Received
+```
 # Task 6: Cisco Talos Intelligence
 ## Cisco Talos Overview
 - **Cisco Talos** là nhóm chuyên gia an ninh mạng của Cisco, tập hợp dữ liệu từ sản phẩm để cung cấp thông tin tình báo, phát hiện và bảo vệ trước các mối đe dọa mới. Giải pháp được gọi là **Talos Intelligence**. Gồm các đội chính:
@@ -125,31 +153,41 @@ Báo cáo lỗ hổng đã công bố và zero-day, gắn với mã CVE và đi�
 - **Tab Email & Spam Data**: Cung cấp thêm dữ liệu về email và thư rác.
 ## Answer the questions
 1. *What is the listed domain of the IP address from the previous task?*
-Answer: **scnet.net**
-Solution: **Truy cập vào `https://talosintelligence.com/` và tìm kiếm với ip "104.237.130.10"**
+```
+Answer: scnet.net
+Solution: Truy cập vào `https://talosintelligence.com/` và tìm kiếm với ip "104.237.130.10"
+```
 ![alt text](images/Cisco_Talos.png)
 2. *What is the listed domain of the IP address from the previous task?*
-Answer: **Complete Web Reviews**
-![alt text](images/Cisco_Talos_2.png)
-- Vì hiện tại Talos không thể xác định được nên mình sẽ sử dụng một trang web ngoài để kiểm tra **WHOIS**.
+```
+Answer: Complete Web Reviews
+Solution: **Vì hiện tại Talos không thể xác định được nên mình sẽ sử dụng một trang web ngoài để kiểm tra **WHOIS**.
+```
 ![alt text](images/Cisco_Talos_3.png)
-
 # Task 7: Scenario 1
 ## Answer the questions
 1. *According to Email2.eml, what is the recipient's email address?*
-Answer: **chris.lyons@supercarcenterdetroit.com**
+```
+Answer: chris.lyons@supercarcenterdetroit.com
+```
 2. **On VirusTotal, the attached file can also be identified by a Detection Alias, which starts with an H.**
-Answer: **HIDDENEXT/Worm.Gen**
-Solution: **Vì trong máy ảo không thể truy cập mạng nên ta sẽ tìm kiếm bằng hash của file. Chuột phải vào file, chọn properties, sau đó chọn mục Digests. Ấn Hash để lấy hàm băm. Lấy loại hàm băm nào cũng sẽ cho ra kết quả nhé.**
+```
+Answer: HIDDENEXT/Worm.Gen
+Solution: Vì trong máy ảo không thể truy cập mạng nên ta sẽ tìm kiếm bằng hash của file. Chuột phải vào file, chọn properties, sau đó chọn mục Digests. Ấn Hash để lấy hàm băm. Lấy loại hàm băm nào cũng sẽ cho ra kết quả nhé.
+```
 ![alt text](images/Scenario_1.png)
 
 # Task 8: Scenario 2
 ## Answer the questions
 1. *What is the name of the attachment on Email3.eml?*
-Answer: **Sales_Receipt 5606.xls**
-Solution: **Phần này tương đối dễ, chỉ việc view source của file lên là sẽ thấy**
+```
+Answer: Sales_Receipt 5606.xls
+Solution: Phần này tương đối dễ, chỉ việc view source của file lên là sẽ thấy
 ![alt text](images/Scenario_2.png)
+```
 2. *What malware family is associated with the attachment on Email3.eml?*
-Answer: **Dridex**
-Solution: **Từ câu hỏi trước ta đã biết được tên file là `Sales_Receipt 5606.xls`. Đây là một dạng file tài liệu, vậy thì ta sẽ bám sát vào dữ liệu này và tìm, lướt đến mục Microsoft ta sẽ thấy tên `Dridex`"**
+```
+Answer: Dridex
+Solution: Từ câu hỏi trước ta đã biết được tên file là `Sales_Receipt 5606.xls`. Đây là một dạng file tài liệu, vậy thì ta sẽ bám sát vào dữ liệu này và tìm, lướt đến mục Microsoft ta sẽ thấy tên `Dridex`
 ![alt text](images/Scenario_2_2.png)
+```

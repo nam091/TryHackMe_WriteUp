@@ -25,14 +25,24 @@ Các hồ sơ người dùng được cấu hình sẵn là:
 - **Read-only**: Chỉ có thể đọc, Trường hợp, Nhiệm vụ và Chi tiết quan sát được;
 ## Answer the questions
 1. *Which pre-configured account cannot manage any cases?*
+```
 Answer: **Admin**
-2. *Which permission allows a user to create, update or delete observables?*
+```
+1. *Which permission allows a user to create, update or delete observables?*
+```
 Answer: **manageObservable**
-3. *Which permission allows a user to execute actions?*
+```
+1. *Which permission allows a user to execute actions?*
+```
 Answer: **manageAction**
+```
 # Task 5: Analyst Interface Navigation
 1. *Where are the TTPs imported from?*
+```
 Answer: **MITRE ATT&CK**
+```
 1. *According to the Framework, what type of Detection "Data source" would our investigation be classified under?*
+```
 Answer: **Network Traffic**
 Solution: **Để tìm được đáp án, bạn phải vào trang web của MITRE ATT&CK, chọn mục `Defenses` rồi vào `Data Sources`. File đầu bài cho là file `pcap`. Nên sử dụng tìm kiếm tìm từ `pcap`**
+```
