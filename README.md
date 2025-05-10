@@ -20,10 +20,10 @@ This repository contains my personal write-ups for various TryHackMe rooms, docu
 | Room Name | Link |
 |-----------|------|
 | Intro to Cyber Threat Intel | [Write-up](link) |
-| Threat Intelligence Tools | [Write-up](Write_Up/Threat_Intelligence_Tools/Threat_Intelligence_Tools.md) |
-| Yara | [Write-up](Write_Up/Yara/Yara.md) |
-| OpenCTI | [Write-up](link) |
-| MISP | [Write-up](link) |
+| Threat Intelligence Tools | [Write-up](Write_Up/Learning_Path_2/Threat Intelligence Tools/Threat_Intelligence_Tools.md) |
+| Yara | [Write-up](Write_Up/Learning_Path_2/Yara/Yara.md) |
+| OpenCTI | [Write-up](Write_Up/Learning_Path_2/OpenCTI/OpenCTI.md) |
+| MISP | [Write-up](Write_Up/Learning_Path_2/MISP/MISP.md) |
 | Friday Overtime | [Write-up](link) |
 | Trooper | [Write-up](link) |
 
@@ -81,7 +81,7 @@ This repository contains my personal write-ups for various TryHackMe rooms, docu
 | KAPE | [Write-up](link) |
 | Volatility | [Write-up](link) |
 | Velociraptor | [Write-up](link) |
-| TheHive Project | [Write-up](Write_Up/TheHive%20Project/TheHive.md) |
+| TheHive Project | [Write-up](Write_Up/Learning_Path_6/TheHive_Project/TheHive.md) |
 | Intro to Malware Analysis | [Write-up](link) |
 | Unattended | [Write-up](link) |
 | Disgruntled | [Write-up](link) |
