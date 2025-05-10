@@ -24,14 +24,14 @@ This repository contains my personal write-ups for various TryHackMe rooms, docu
 | Yara | [Write-up](Write_Up/Learning_Path_2/Yara/Yara.md) |
 | OpenCTI | [Write-up](Write_Up/Learning_Path_2/OpenCTI/OpenCTI.md) |
 | MISP | [Write-up](Write_Up/Learning_Path_2/MISP/MISP.md) |
-| Friday Overtime | [Write-up](link) |
-| Trooper | [Write-up](link) |
+| Friday Overtime | [Write-up](Write_Up/Learning_Path_2/Friday_Overtime/Friday_Overtime.md) |
+| Trooper | [Write-up](Write_Up/Learning_Path_2/Trooper/Trooper.md) |
 
 ## Learning Path 3: Network Security and Traffic Analysis
 
 | Room Name | Link |
 |-----------|------|
-| Traffic Analysis Essentials | [Write-up](link) |
+| Traffic Analysis Essentials | [Write-up](Write_Up/Learning_Path_3/Traffic_Analysis_Essentials/Traffic_Analysis_Essentials.md) |
 | Snort | [Write-up](link) |
 | Snort Challenge - The Basics | [Write-up](link) |
 | Snort Challenge - Live Attacks | [Write-up](link) |
@@ -108,11 +108,6 @@ This repository contains my personal write-ups for various TryHackMe rooms, docu
 | Boogeyman 3 | [Write-up](link) |
 | Tempest | [Write-up](link) |
 
-## Learning Path 9: SOC Level 2 Capstone Challenges
-
-| Room Name | Link |
-|-----------|------|
-
 More write-ups will be added as I complete additional rooms.
-
-
+&nbsp;
+*Latest update: 11/05/2025*
