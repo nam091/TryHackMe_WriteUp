@@ -155,14 +155,16 @@ Báo cáo lỗ hổng đã công bố và zero-day, gắn với mã CVE và đi�
 1. *What is the listed domain of the IP address from the previous task?*
 ```
 Answer: scnet.net
-Solution: Truy cập vào `https://talosintelligence.com/` và tìm kiếm với ip "104.237.130.10"
 ```
+Solution: Truy cập vào `https://talosintelligence.com/` và tìm kiếm với ip "104.237.130.10"
+
 ![alt text](images/Cisco_Talos.png)
 2. *What is the listed domain of the IP address from the previous task?*
 ```
 Answer: Complete Web Reviews
-Solution: **Vì hiện tại Talos không thể xác định được nên mình sẽ sử dụng một trang web ngoài để kiểm tra **WHOIS**.
 ```
+Solution: **Vì hiện tại Talos không thể xác định được nên mình sẽ sử dụng một trang web ngoài để kiểm tra **WHOIS**.
+
 ![alt text](images/Cisco_Talos_3.png)
 # Task 7: Scenario 1
 ## Answer the questions
@@ -173,8 +175,8 @@ Answer: chris.lyons@supercarcenterdetroit.com
 2. **On VirusTotal, the attached file can also be identified by a Detection Alias, which starts with an H.**
 ```
 Answer: HIDDENEXT/Worm.Gen
-Solution: Vì trong máy ảo không thể truy cập mạng nên ta sẽ tìm kiếm bằng hash của file. Chuột phải vào file, chọn properties, sau đó chọn mục Digests. Ấn Hash để lấy hàm băm. Lấy loại hàm băm nào cũng sẽ cho ra kết quả nhé.
 ```
+Solution: Vì trong máy ảo không thể truy cập mạng nên ta sẽ tìm kiếm bằng hash của file. Chuột phải vào file, chọn properties, sau đó chọn mục Digests. Ấn Hash để lấy hàm băm. Lấy loại hàm băm nào cũng sẽ cho ra kết quả nhé.
 ![alt text](images/Scenario_1.png)
 
 # Task 8: Scenario 2
@@ -182,12 +184,13 @@ Solution: Vì trong máy ảo không thể truy cập mạng nên ta sẽ tìm k
 1. *What is the name of the attachment on Email3.eml?*
 ```
 Answer: Sales_Receipt 5606.xls
+```
 Solution: Phần này tương đối dễ, chỉ việc view source của file lên là sẽ thấy
 ![alt text](images/Scenario_2.png)
-```
+
 2. *What malware family is associated with the attachment on Email3.eml?*
 ```
 Answer: Dridex
+```
 Solution: Từ câu hỏi trước ta đã biết được tên file là `Sales_Receipt 5606.xls`. Đây là một dạng file tài liệu, vậy thì ta sẽ bám sát vào dữ liệu này và tìm, lướt đến mục Microsoft ta sẽ thấy tên `Dridex`
 ![alt text](images/Scenario_2_2.png)
-```
