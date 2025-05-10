@@ -20,7 +20,7 @@ This repository contains my personal write-ups for various TryHackMe rooms, docu
 | Room Name | Link |
 |-----------|------|
 | Intro to Cyber Threat Intel | [Write-up](link) |
-| Threat Intelligence Tools | [Write-up](Write_Up/Learning_Path_2/Threat Intelligence Tools/Threat_Intelligence_Tools.md) |
+| Threat Intelligence Tools | [Write-up](Write_Up/Learning_Path_2/Threat_Intelligence_Tools/Threat_Intelligence_Tools.md) |
 | Yara | [Write-up](Write_Up/Learning_Path_2/Yara/Yara.md) |
 | OpenCTI | [Write-up](Write_Up/Learning_Path_2/OpenCTI/OpenCTI.md) |
 | MISP | [Write-up](Write_Up/Learning_Path_2/MISP/MISP.md) |
