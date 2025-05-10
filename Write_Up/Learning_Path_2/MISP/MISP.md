@@ -45,21 +45,35 @@ Giao diện **MISP** cho phép các nhà phân tích theo dõi, chia sẻ và đ
 - **Envelope:** Liên kết đến Bảng điều khiển Người dùng để tham khảo một số thông báo và thay đổi của bạn kể từ lần truy cập cuối cùng.
 - **Log out:** Nút Đăng xuất để kết thúc phiên làm việc của bạn ngay lập tức.
 1. *How many distribution options does MISP provide to share threat information?*
-Answer: **4**
+```
+Answer: 4
+```
 2. *Which user has the role to publish events?*
-Answer: **Organisation Admin**
+```
+Answer: Organisation Admin
+```
 # Task 4: Feeds & Taxonomies
 - **Feeds:** Nhập chỉ số đe dọa từ các nguồn bên ngoài để cập nhật thông tin.
 - **Taxonomies:** Phân loại thông tin (sự kiện, chỉ số) bằng các thẻ (tag) tiêu chuẩn.
 - **Tagging:** Gắn thẻ vào sự kiện/thuộc tính để xác định và chia sẻ thông tin mối đe dọa.
 # Task 5: Scenario Event
 1. *What event ID has been assigned to the PupyRAT event?*
-Answer: **1145**
-2. *The event is associated with the adversary gaining ______ into organisations.*
-Answer: **Remote Access**
-3. *What IP address has been mapped as the PupyRAT C2 Server*
-Answer: **89.107.62.39**
-4. *From the Intrusion Set Galaxy, what attack group is known to use this form of attack?*
-Answer: **Magic Hound**
-5. *There is a taxonomy tag set with a Certainty level of 50. Which one is it?*
-Answer: **OSINT**
+```
+Answer: 1145
+```
+   1. *The event is associated with the adversary gaining ______ into organisations.*
+```
+Answer: Remote Access
+```
+1. *What IP address has been mapped as the PupyRAT C2 Server*
+```
+Answer: 89.107.62.39
+```
+1. *From the Intrusion Set Galaxy, what attack group is known to use this form of attack?*
+```
+Answer: Magic Hound
+```
+1. *There is a taxonomy tag set with a Certainty level of 50. Which one is it?*
+```
+Answer: OSINT
+```
